@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-    AlphaBot2.MotorRun(Motors.M1, 0)
-    AlphaBot2.MotorRun(Motors.M2, 0)
+    AlphaBot2.MotorRun(Motors.M1, 100)
+    AlphaBot2.MotorRun(Motors.M2, 100)
     basic.pause(1000)
     AlphaBot2.MotorRun(Motors.M1, -100)
     AlphaBot2.MotorRun(Motors.M2, -100)
